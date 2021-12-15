@@ -84,6 +84,8 @@ DATABASES = {
     }
 }
 
+REST_FRAMEWORK = {"NON_FIELD_ERRORS_KEY": "error"}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
